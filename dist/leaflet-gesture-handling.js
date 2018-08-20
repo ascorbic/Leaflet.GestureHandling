@@ -506,8 +506,6 @@
             }
         },
 
-        _isScrolling: false,
-
         _handleScroll: function (e) {
             if (e.metaKey || e.ctrlKey) {
                 e.preventDefault();
